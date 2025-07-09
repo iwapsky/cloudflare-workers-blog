@@ -6,7 +6,7 @@ const OPT = {
     "siteName" : "daylife",//博客名称
     "siteDescription":"A Blog Powered By daylife.eu.org",//博客描述
     "keyWords":"cloudflare,KV,workers,blog",//关键字
-    "cacheZoneId":"cc868e8edce4027ad4a735741111111",//清理缓存用 cf区域 ID
+    "cacheZoneId":"fde47b13e403d13645e031b2e0bcc7d9",//清理缓存用 cf区域 ID
     "cacheToken":"SGU8fNcPkSeU66erpDYW0cjUnii-MZsDGf5xlkQE",//清理缓存用 cf API token
 	
     "pageSize" : 5,//每页文章数
