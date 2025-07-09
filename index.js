@@ -1,13 +1,13 @@
 'use strict';
 const OPT = {
     "user" : "admin", //后台密码请修改
-    "password" : "yourSelfPwd", //后台密码
-    "siteDomain" : "blog.gezhong.vip",// 域名(不带https 也不带/)
-    "siteName" : "CF workers blog",//博客名称
-    "siteDescription":"A Blog Powered By Cloudflare Workers and KV",//博客描述
+    "password" : "admin", //后台密码
+    "siteDomain" : "daylife.eu.org,// 域名(不带https 也不带/)
+    "siteName" : "daylife",//博客名称
+    "siteDescription":"A Blog Powered By daylife.eu.org",//博客描述
     "keyWords":"cloudflare,KV,workers,blog",//关键字
     "cacheZoneId":"cc868e8edce4027ad4a735741111111",//清理缓存用 cf区域 ID
-    "cacheToken":"LNxRWH-MPMIGnp8qhyT8FUsjDRN6tdOnmaaaaaaa",//清理缓存用 cf API token
+    "cacheToken":"SGU8fNcPkSeU66erpDYW0cjUnii-MZsDGf5xlkQE",//清理缓存用 cf API token
 	
     "pageSize" : 5,//每页文章数
     "recentlySize" : 6,//最近文章数
@@ -24,7 +24,7 @@ const OPT = {
     "otherCodeC":``,//其他参数A
     "otherCodeD":``,//其他参数A
     "otherCodeE":``,//其他参数A
-    "copyRight" :`Powered by <a href="https://www.cloudflare.com">CF Workers</a> & <a href="https://blog.gezhong.vip">CF-Blog </a>`,//自定义版权信息,建议保留大公无私的 Coudflare 和 作者 的链接
+    "copyRight" :`Powered by <a href="https://daylife.eu.org">Daylife </a>`,//自定义版权信息,建议保留大公无私的 Coudflare 和 作者 的链接
 "robots":`User-agent: *
 Disallow: /admin`//robots.txt设置
 };
